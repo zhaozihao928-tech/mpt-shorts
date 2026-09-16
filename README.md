@@ -7,7 +7,7 @@
 
 | 日期 | 短片 | 时长 | 画面 | 生成耗时 |
 |---|---|---|---|---|
-| 2026-09-16 | [`shorts/2026-09-16-world-logic`](shorts/2026-09-16-world-logic) 《世界的底层逻辑》 | 2 分 56 秒 | 720×1280 | 204 秒 |
+| 2026-09-16 | [`shorts/2026-09-16-world-logic`](shorts/2026-09-16-world-logic) 《世界的底层逻辑》 | 3 分 03 秒 | 720×1280 | 约 190 秒 |
 | 2026-09-15 | [`shorts/2026-09-15-squat-course`](shorts/2026-09-15-squat-course) 《深蹲要点》 | 24 秒 | 540×960 | 77 秒 |
 
 ## 和「随便配素材」的区别
@@ -18,7 +18,7 @@
 - `diagram`：旁白在讲**概念链条**时，画面是程序画出来的信息图（约束 → 概率 → 因果 → 熵 → 信息 → 反馈 → 演化），逐级出现；
 - `text`：结尾用黑底大字给结论，配音乐收尾。
 
-旁白由当前会话按脚本写，配音用 Edge TTS（免费）。「道」系列固定用**低沉男声**（zh-CN-YunxiNeural，pitch −18Hz、1.25 倍速），字幕强制单行并按字数比例分配时长。
+旁白由当前会话按脚本写，配音用 Edge TTS（免费）。「道」系列固定用**低沉男声 + 1.1 倍速**（zh-CN-YunxiNeural，pitch −18Hz），字幕固定贴底显示，字幕强制单行并按字数比例分配时长。
 
 ## 为什么一次比一次快
 
@@ -42,6 +42,8 @@ mpt-short build /绝对路径/storyboard.json   # 生成
 mpt-short build ... --force                 # 忽略缓存重做
 mpt-short report                            # 每次流程的分阶段耗时
 ```
+
+调样式不必重渲染：`mpt-short preview <storyboard.json> --at 20` 只烧单帧，1 秒出图。
 
 分镜格式见 [`shorts/2026-09-16-world-logic/storyboard.json`](shorts/2026-09-16-world-logic/storyboard.json)。
 

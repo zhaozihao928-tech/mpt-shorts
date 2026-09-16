@@ -62,6 +62,15 @@
       "kind": "clips",
       "clip_seconds": 4.2,
       "terms": [
+        "laboratory experiment",
+        "microscope research"
+      ],
+      "narration": "科学之所以可信，不只是因为它解释了现象，还因为它愿意接受反事实的检验：如果没有这个原因，结果会不会不一样？换个时间、换个样本，能不能重复出同样的结论。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": [
         "messy room",
         "melting ice"
       ],
@@ -104,6 +113,15 @@
       "narration": "还有非线性。水从九十九度到一百度，只差一度，状态却完全不同。很多努力在很长时间里看不到变化，直到越过那个阈值。"
     },
     {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": [
+        "dna helix",
+        "seedling growing"
+      ],
+      "narration": "把这些机制放进足够长的时间里，就得到演化。反复试错会筛出更适应环境的形态：分子的组合、生命的繁衍、公司的竞争，用的是同一套逻辑。"
+    },
+    {
       "kind": "text",
       "font_size": 46,
       "lines": [
@@ -119,5 +137,5 @@
   ],
   "bgm_file": "/opt/MoneyPrinterTurbo/storage/shorts/_assets/ambient-pad.m4a",
   "voice_pitch": "-18Hz",
-  "voice_rate": "+25%"
+  "voice_rate": "+10%"
 }
