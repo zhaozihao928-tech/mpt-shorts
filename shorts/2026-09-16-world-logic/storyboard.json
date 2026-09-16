@@ -3,8 +3,8 @@
   "height": 1280,
   "fps": 30,
   "voice": "zh-CN-XiaoxiaoNeural",
-  "bgm": false,
-  "bgm_volume": 0.09,
+  "bgm": true,
+  "bgm_volume": 0.1,
   "out_dir": "/opt/MoneyPrinterTurbo/storage/shorts/bottom-logic",
   "segments": [
     {
@@ -116,5 +116,6 @@
       ],
       "narration": "所以真正理解这些规律的人，不会走向宿命论。不要试图控制结果，要努力控制条件。人生质量，约等于在不可控的随机性中，持续提高有利结果发生的概率。"
     }
-  ]
+  ],
+  "bgm_file": "/opt/MoneyPrinterTurbo/storage/shorts/_assets/ambient-pad.m4a"
 }
