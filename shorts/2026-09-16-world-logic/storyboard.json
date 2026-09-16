@@ -1,0 +1,77 @@
+{
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "bgm": true,
+  "bgm_volume": 0.09,
+  "out_dir": "/opt/MoneyPrinterTurbo/storage/shorts/bottom-logic",
+  "segments": [
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["galaxy space", "earth from space", "city aerial view"],
+      "narration": "如果让你用一句话描述这个世界最底层的运行规律，你会怎么回答？很多人以为，答案藏在一条神秘的公式里。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["newton pendulum", "planet orbit"],
+      "narration": "经典物理给过一个很舒服的直觉：只要知道初始条件和规律，未来就能被算出来。现在状态加上规律，等于唯一未来。于是很多人把这种确定性，悄悄当成了人生应该有一条正确路径。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["blue particles abstract", "smoke slow motion"],
+      "narration": "但现代物理给出的图景复杂得多。即使底层规律严格，我们能预测的往往也只是不同结果出现的概率。规律划定的是可能性的边界，而不是唯一的结果。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["dominoes falling", "chain reaction"],
+      "narration": "还有一件比相关更容易被搞错的事，就是因果。A之后发生B，不等于A导致了B，中间可能有一个C同时造成了两者。所以真正值得追问的不是发生了什么，而是如果没有A，B还会不会发生。"
+    },
+    {
+      "kind": "diagram",
+      "title": "一条可以带走的链条",
+      "steps": ["约束", "概率", "因果", "熵", "信息", "反馈", "演化"],
+      "narration": "把这些放在一起，就得到一条链条：约束、概率、因果、熵、信息、反馈、演化。世界先有约束，约束之中存在许多可能状态，事件按概率发生，事件之间形成因果。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["messy room", "melting ice"],
+      "narration": "这条链条里，熵最容易被误读。孤立系统的总趋势是更混乱：房间不收拾会变乱，机器不维护会磨损，关系不经营会疏远。稳定从来不是默认状态，维持结构需要持续做功。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["green leaves sunlight", "forest fog"],
+      "narration": "那生命为什么能越来越有序？因为生命不是孤立系统。它吸收低熵的资源，用能量维持结构，再把熵排给环境。能量、信息、反馈，共同撑起局部秩序。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["library bookshelf", "server room"],
+      "narration": "信息，是对抗不确定性的核心资源。获得信息，本质上就是排除可能性。学习不是囤积知识，而是建立一个能压缩世界复杂性的模型：用更少的规律，解释更多的事实。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["gears turning", "clock mechanism"],
+      "narration": "反馈，决定复杂系统最终长成什么样。能力提高带来更好的机会，更好的机会又反过来提高能力，这是正反馈。焦虑导致回避，回避让问题积累，也是正反馈，只是方向对你不利。"
+    },
+    {
+      "kind": "clips",
+      "clip_seconds": 4.2,
+      "terms": ["water drop ripple", "steam boiling"],
+      "narration": "还有非线性。水从九十九度到一百度，只差一度，状态却完全不同。很多努力在很长时间里看不到变化，直到越过那个阈值。"
+    },
+    {
+      "kind": "text",
+      "font_size": 46,
+      "lines": ["真正理解规律的人", "不会走向宿命论", "不要试图控制结果", "要努力控制条件", "人生质量 ≈ 在不可控随机性中", "持续提高有利结果发生的概率"],
+      "narration": "所以真正理解这些规律的人，不会走向宿命论。不要试图控制结果，要努力控制条件。人生质量，约等于在不可控的随机性中，持续提高有利结果发生的概率。"
+    }
+  ]
+}
