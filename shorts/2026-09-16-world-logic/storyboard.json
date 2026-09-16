@@ -2,7 +2,7 @@
   "width": 720,
   "height": 1280,
   "fps": 30,
-  "voice": "zh-CN-YunyangNeural",
+  "voice": "zh-CN-YunxiNeural",
   "bgm": true,
   "bgm_volume": 0.1,
   "out_dir": "/opt/MoneyPrinterTurbo/storage/shorts/bottom-logic",
@@ -118,6 +118,6 @@
     }
   ],
   "bgm_file": "/opt/MoneyPrinterTurbo/storage/shorts/_assets/ambient-pad.m4a",
-  "voice_pitch": "-8Hz",
-  "voice_rate": "-4%"
+  "voice_pitch": "-18Hz",
+  "voice_rate": "+25%"
 }
