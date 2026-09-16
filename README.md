@@ -43,6 +43,8 @@ mpt-short build ... --force                 # 忽略缓存重做
 mpt-short report                            # 每次流程的分阶段耗时
 ```
 
+素材规则：每个搜索词保留 3 条不同素材，全片每个素材最多用一次，每段的切片等长并在词条间轮转（`clip-plan.json` 可核）。
+
 调样式不必重渲染：`mpt-short preview <storyboard.json> --at 20` 只烧单帧，1 秒出图。
 
 分镜格式见 [`shorts/2026-09-16-world-logic/storyboard.json`](shorts/2026-09-16-world-logic/storyboard.json)。
